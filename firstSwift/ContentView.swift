@@ -10,10 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Chandler!")
-            .font(.largeTitle)
-            .foregroundColor(Color.red)
-            .padding(.all)
+        HStack {
+            VStack {
+                Text("Turtle Rock!")
+                    .font(.largeTitle)
+                    .foregroundColor(Color.black)
+                    .padding(.all)
+            }
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+        }
     }
 }
 
